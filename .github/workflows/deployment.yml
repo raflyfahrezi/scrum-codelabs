@@ -9,8 +9,6 @@ on:
 
 jobs:
     deploy:
-        needs: build
-
         # Running on latest version of Ubuntu
         runs-on: ubuntu-latest
 
