@@ -12,7 +12,7 @@ const User = db.define('User', {
     nama: DataTypes.STRING(80),
     jk: {
         type: DataTypes.STRING(255),
-        unique: true,
+        allowNull: true,
     },
     email: {
         type: DataTypes.STRING(255),
